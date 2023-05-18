@@ -10,6 +10,6 @@ sed-opal: sed.c $(OBJS)
 	  $(CC) $(CPPFLAGS) $(CFLAGS) sed.c -o sed-opal $(OBJS)
 
 clean:
-	$(RM) *.o
+	$(RM) *.o sed-opal
 
 .PHONY: default clean
