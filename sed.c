@@ -28,7 +28,7 @@
 #include <sys/mman.h>
 #include <sys/types.h>
 #include <sys/stat.h>
-
+#include <linux/sed-opal.h>
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -40,7 +40,6 @@
 #include <fcntl.h>
 
 #include "argconfig.h"
-#include "sed-opal.h"
 #include "plugin.h"
 
 static const char *devicename;
