@@ -7,7 +7,7 @@ OBJS := sed.o argconfig.o suffix.o plugin.o
 default: sed-opal
 
 sed-opal: $(OBJS)
-	  $(CC) $(CPPFLAGS) $(CFLAGS) -o sed-opal $(OBJS)
+	  $(LINK.o) $^ $(LDLIBS) -o $@
 
 clean:
 	$(RM) *.o sed-opal
