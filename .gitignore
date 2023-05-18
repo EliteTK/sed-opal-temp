@@ -1,3 +1,4 @@
+*.d
 *.o
 compile_flags.txt
 sed-opal
