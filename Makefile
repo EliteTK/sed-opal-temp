@@ -11,3 +11,5 @@ sed-opal: sed.c $(OBJS)
 
 clean:
 	$(RM) *.o
+
+.PHONY: default clean
